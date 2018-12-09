@@ -96,7 +96,7 @@
 #define BGGreyColor         [UIColor colorWithRed:243/255.0 green:246/255.0 blue:249/255.0 alpha:1/1.0]
 #define Window          [[UIApplication sharedApplication].delegate window]
 #define ThemeImageColor @"order_bnt.png"
-#define ThemeColor        HexColor(0xA92748)
+#define ThemeColor        HexColor(0x0096FF)
 #define NavBackBtnColor HexColor(0xffffff)
 #define USER            [TheUser user]
 #define HexColor(h)     [UIColor colorWithRed:(((h & 0xFF0000) >> 16))/255.0 green:(((h &0xFF00) >>8))/255.0 blue:((h &0xFF))/255.0 alpha:1.0]
