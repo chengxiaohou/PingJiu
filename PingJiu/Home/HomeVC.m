@@ -113,14 +113,15 @@
         NSArray *arr = dic[@"Lab"];
         if (arr.count > 0) {
             
-            for (NSInteger i = 0; i < arr.count; i++) {
+            for (NSInteger i = 0; i < 1; i++) {
                 UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-                btn.frame = CGRectMake(12 + (i * (100 + 12)), 12, 100, 30);
+                CGFloat width = 80;
+                btn.frame = CGRectMake((i * (width + 12)), 0, width, 20);
                 [btn setTitle:arr[i] forState:UIControlStateNormal];
                 btn.layer.cornerRadius = 10;
-                [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+                [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
                 btn.titleLabel.font = [UIFont systemFontOfSize:14.0];
-                [btn setBackgroundColor:[UIColor lightGrayColor]];
+                [btn setBackgroundColor:[[UIColor lightGrayColor] colorWithAlphaComponent:0.5]];
                 [cell.tagView addSubview:btn];
 
             }

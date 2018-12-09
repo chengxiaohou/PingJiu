@@ -244,6 +244,7 @@
 		9DF17E9321BA4B6D00C28356 /* EETabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EETabBarItem.m; sourceTree = "<group>"; };
 		9DF17E9421BA4B6D00C28356 /* EETabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EETabBarItem.h; sourceTree = "<group>"; };
 		CF0C44DB3FE08EF49BCB7C30 /* libPods-PingJiu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PingJiu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A8773321BD0563002BDAA9 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
 		FDC82BB59E468EC2188D4425 /* libPods-PingJiuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PingJiuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -301,6 +302,7 @@
 		9DA9B2F121AE67E3006BDD4E = {
 			isa = PBXGroup;
 			children = (
+				E4A8773321BD0563002BDAA9 /* codeObfuscation.h */,
 				9DA9B2FC21AE67E3006BDD4E /* PingJiu */,
 				9DA9B31521AE67E5006BDD4E /* PingJiuTests */,
 				9DA9B32021AE67E5006BDD4E /* PingJiuUITests */,
